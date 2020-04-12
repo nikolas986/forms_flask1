@@ -10,4 +10,4 @@ def index():
 def hello():
     name = request.form.get("name").capitalize() #ovde taj form iz indeksa predaj evrednost u name na kraju sam ga povećao
     surname =request.form.get("surname").capitalize() #ovde sam se pravio malo važan i ubacio sam i promenljivu prezime
-    return render_template("hello.html", name=name, surname=surname) #tu promenljivu predaje u name i upućuje u hello.html
+    return render_template("hello.html", name=name, surname=surname) #tu promenljivu predaje u name i upućuje u hello.html da
